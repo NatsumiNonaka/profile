@@ -1,0 +1,36 @@
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+      }
+
+      .heading h2 {
+        font-size: 20px;
+      }
+
+      .photo, .hobby {
+        width: 50%;
+        margin-bottom: 50px;
+      }
+
+      footer {
+        text-align: center;
+      }
+}
+
+@media all and (max-width: 670px) {
+    .top-wrapper {
+        text-align: left;
+      }
+      
+      .top-wrapper h1 {
+        font-size: 24px;
+      }
+    
+      .top-wrapper p {
+        font-size: 14px;
+      }
+
+      .photo, .hobby {
+        width: 100%;
+      }
+}
